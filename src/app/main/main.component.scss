@@ -1,0 +1,62 @@
+.chart-container {
+  width: 70%;
+  max-width: 800px;
+  margin: auto;
+}
+
+canvas {
+  display: block;
+  width: 70%;
+  height: auto;
+}
+
+/* Основной стиль контейнера для выбора криптовалюты */
+div {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Стиль для метки, которая описывает поле выбора */
+label {
+  font-size: 1.2rem;
+  margin-right: 10px;
+  color: #272160;
+}
+
+/* Стили для выпадающего списка */
+select {
+  font-size: 1rem;
+  padding: 10px;
+  border: 2px solid #483da7;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  color: #483da7;
+  width: 200px;
+  transition: all 0.3s ease;
+}
+
+/* Плавные эффекты при наведении и фокусе */
+select:hover {
+  background-color: #e9ecef;
+  cursor: pointer;
+}
+
+select:focus {
+  outline: none;
+  border-color: #382e87;
+  box-shadow: 0 0 5px rgba(0, 86, 179, 0.5);
+}
+
+/* Стиль для опций в выпадающем списке */
+option {
+  padding: 10px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Добавим немного отступов для блока */
+select, label {
+  font-family: 'Arial', sans-serif;
+}
